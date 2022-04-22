@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.video1{
+    margin: 0 auto;
+    width: 500px;
+}
+
+a {
+    font-size:30px;
+    background: gray;
+    text-decoration: underline;
+}
+
+a:visited{
+    color:rgb(214, 213, 214);
+}
+
+a:hover{
+    color:rgb(209, 23, 23);
+    font-weight: bold;
+    text-decoration: none;
+}

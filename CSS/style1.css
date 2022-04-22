@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    
+}
+
+body{
+    margin: 50 100;
+    padding: 0;
+    font-family: "montserrat";
+    background-image: linear-gradient(125deg,#E4FFCD,#d4bd58,#2980B9,#f084c5);  background-size: 400%;
+    animation: bganimation 5s infinite;
+  }
+   
+
+   
+  @keyframes bganimation {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+
+  .navbar{
+    width: width 85%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+    margin-right: 200px;
+}
+
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 50px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.navbar ul li ::after{
+    content: '';
+    height: 5px;
+    width: 0;
+    background: #2694d8;
+    position: absolute;
+    left: 0;
+    bottom: -5;
+    transition: 0.2s;
+}
+
+.navbar ul li :hover:after{
+    width: 100%;
+}
+
+.content{
+    margin-top: 300px;
+    position:50%;
+    top: 30%;
+    text-align: center;
+    color: #E4FFCD;
+}
+
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.content p{
+    font-size: 33px;
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

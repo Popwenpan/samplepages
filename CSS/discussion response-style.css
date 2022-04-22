@@ -1,0 +1,138 @@
+body{
+    margin: 50 100;
+    padding: 0;
+    font-family: "montserrat";
+    background-image: linear-gradient(125deg,#737373,#5b637b,#7c536f,#b7998e);  background-size: 400%;
+    animation: bganimation 5s infinite;
+  }
+   
+
+   
+  @keyframes bganimation {
+    0%{
+      background-position: 0% 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0% 50%;
+    }
+  }
+
+  a {
+    font-size:30px;
+    background: gray;
+    text-decoration: underline;
+    margin-left: 50%;
+}
+
+a:visited{
+    color:rgb(214, 213, 214);
+}
+
+a:hover{
+    color:rgb(209, 23, 23);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#container1{
+    height: 36px;
+    width: 567px;
+    position: absolute;
+    top: 58px;
+    left: 61px;
+    border-style:ridge;
+    border-color: rgb(241, 124, 46);
+    border-width: 10px;
+    z-index: -20;
+}
+
+.R1{ 
+    position: absolute;
+    top: 50px;
+    left: 99px;
+    font-size: 20px;
+    color: azure;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes anim1 {
+    0% {
+        background: rgb(247, 152, 27); 
+        left:99px;
+        
+    }
+    50% {
+        background: rgb(62, 21, 138);
+        left: 200px;
+}}
+
+.Response1{position: absolute;
+    text-align:justify;
+    top: 105px;
+    left: 64px;
+    right:64px ;
+    font-size: 15px;
+    color: azure;
+    font-style: inherit;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+
+#container2{
+    height: 36px;
+    width: 1314px;
+    position: absolute;
+    top: 407px;
+    left: 61px;
+    border-style: ridge;
+    border-color: rgb(241, 124, 46);
+    border-width: 10px;
+    z-index: -20;
+}
+
+.R2{ 
+    position: absolute;
+    top: 401px;
+    left: 99px;
+    font-size: 20px;
+    color: azure;
+    font-style: oblique;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation-name: anim2;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+
+
+@keyframes anim2 {
+    0% {
+        background: rgb(247, 78, 27); 
+        left:99px;
+        
+    }
+    50% {
+        background: rgb(65, 184, 18);
+        left: 200px;
+}}
+
+.Response2{position: absolute;
+    text-align:justify;
+    font-weight: 1000;
+    top: 456px;
+    left: 64px;
+    right:64px ;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif
+   }
